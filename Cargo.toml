@@ -1,0 +1,17 @@
+[package]
+name = "local-lockgen"
+version = "0.1.0"
+authors = ["Ding Xiang Fei <dingxiangfei2009@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+serde_json = "1.0"
+toml = "0.4"
+
+[dependencies.cargo]
+version = "0.35.0"
+
+[dependencies.serde]
+version = "1.0"
+features = [ "derive" ]
+
